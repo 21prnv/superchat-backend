@@ -11,10 +11,6 @@ const authRoutes = require('./routs/RegisterRoute');
 
 app.use(bodyParser.json());
 app.use(authRoutes);
-app.post('/resister', (req, res)=>{
-
-});
-
 app.get('/',(req,res)=>{
     res.send('hello');
 })
